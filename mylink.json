@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Twitter",
+    "icon": "fab fa-twitter",
+    "url": "https://twitter.com/DexerTSR"
+  },
+  {
+    "text": "Github",
+    "icon": "fab fa-github",
+    "url": "https://github.com/DexerTSR"
+  },
+  {
+    "text": "Bandcamp",
+    "icon": "fab fa-bandcamp",
+    "url": "https://dexertsr.bandcamp.com"
+  },
+  {
+    "text": "Telegram",
+    "icon": "fab fa-telegram",
+    "url": "https://t.me/DexerTSR"
+  }
+]

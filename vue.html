@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Link | benn</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta property="og:image" content="https://lnktree.ben.zeks.me/assets/images/ppimg.jpeg">
+	<meta property="og:title" content="Link | Ben">
+	<meta name="og:description" content="My Link | Ben">
+	<meta property="og:url" content="https://ben.zeks.me">
+	<meta property="og:type" content="website">
+</head>
+
+<body>
+	<div id="profile">
+		<img id="userPhoto" loading="lazy" src="assets/images/ppimg.jpeg" alt="Profile picture of Benz">
+         <div id="userName">
+            <h1 title="my name">ben</h1>
+            <p title="random text">"hidup memang pait, yang manis itu gula."</p>
+         </div>
+      </div>
+      <div id="links">
+      <div v-for="dbs in dataLinks">
+          <a class="link" :href="dbs.url" target="_blank">
+         <i :class="dbs.icon" aria-hidden="true"></i> {{dbs.text}}
+         </a>
+      </div> 
+      </div>
+      <div id="userName">
+           made with <i class="fa fa-heart" aria-hidden="true"></i>by <p title="kopirek" style="text-decoration-line: underline; font-family:'Lucida Console', monospace">ben@2k2x</p>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
