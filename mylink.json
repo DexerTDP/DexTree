@@ -1,8 +1,8 @@
 [
   {
-    "text": "Twitter",
-    "icon": "fab fa-twitter",
-    "url": "https://twitter.com/DexerTSR"
+    "text": "Bandcamp",
+    "icon": "fab fa-bandcamp",
+    "url": "https://dexertsr.bandcamp.com"
   },
   {
     "text": "Github",
@@ -10,13 +10,43 @@
     "url": "https://github.com/DexerTSR"
   },
   {
-    "text": "Bandcamp",
-    "icon": "fab fa-bandcamp",
-    "url": "https://dexertsr.bandcamp.com"
+    "text": "Replit",
+    "icon": "fas fa-code",
+    "url": "https://replit.com/@DexerTSR"
+  },
+  {
+    "text": "Twitter",
+    "icon": "fab fa-twitter",
+    "url": "https://twitter.com/DexerTSR"
   },
   {
     "text": "Telegram",
     "icon": "fab fa-telegram",
     "url": "https://t.me/DexerTSR"
   },
+  {
+    "text": "Discord",
+    "icon": "fab fa-discord",
+    "url": "https://t.me/DexerTSR"
+  },
+  {
+    "text": "YouTube",
+    "icon": "fab fa-youtube",
+    "url": "https://youtube.com/@DexerTSR"
+  },
+  {
+    "text": "Twitch",
+    "icon": "fab fa-twitch",
+    "url": "https://www.twitch.tv/DexerTSR"
+  },
+  {
+    "text": "Rumble",
+    "icon": "fab fa-rumble",
+    "url": "https://rumble.com/user/DexerTSR"
+  },
+  {
+    "text": "Odysee",
+    "icon": "fab fa-odysee",
+    "url": "https://odysee.com/@DexerTSR:e"
+  }
 ]
